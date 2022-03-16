@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: montserrat;
+  font-weight: 600;
+}
+
+body {
+  padding: 20px;
+}
+
+body header {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+body header h1 {
+  font-size: 2.3rem;
+  color: #4E5150;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .products {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #F2F2F2;
+}
+
+body main .products .each-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+body main .products .each-product .imagen {
+  width: 40%;
+  margin-right: 30px;
+}
+
+body main .products .each-product .imagen img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+body main .products .each-product .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body main .products .each-product .details h2 {
+  color: #4E5150;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+body main .products .each-product .details .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .products .each-product .details .prices .price {
+  font-size: 1.1rem;
+  color: #F2994A;
+  margin-right: 20px;
+}
+
+body main .products .each-product .details .prices .price-lined {
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
+
+body main .products .each-product .details .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 12px;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+body main .products .each-product .details .quantity button {
+  border: none;
+  background-color: #d6d6d6;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+
+body main .products .each-product .details .quantity input {
+  width: 50%;
+  text-align: center;
+  border: none;
+  color: black;
+  background-color: #f2f2f2;
+  font-size: 1.3rem;
+}
+
+body main .products .resume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .products .resume .separation-line {
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #b4b4b4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body main .products .resume .total-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+body main .inputs-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .inputs-section h2 {
+  font-size: 1.2rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+body main .inputs-section .inputs {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body main .inputs-section .inputs label {
+  font-size: 0.8rem;
+}
+
+body main .inputs-section .inputs .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .inputs-section .inputs .input-container svg {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+body main .inputs-section .inputs .input-container input {
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  border-color: #ccc2c2;
+  padding-left: 45px;
+  margin-top: 8px;
+}
+
+body main .inputs-section .two-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .inputs-section .two-inputs label {
+  font-size: 0.8rem;
+}
+
+body main .inputs-section .two-inputs .inputs {
+  width: 50%;
+}
+
+body main .inputs-section .two-inputs .inputs .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .inputs-section .two-inputs .inputs .input-container img {
+  width: 15px;
+  margin-left: 14px;
+  margin-top: 28px;
+  position: absolute;
+}
+
+body main .inputs-section .two-inputs .inputs .input-container select {
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  border: 2px solid gray;
+  padding-left: 40px;
+  padding-right: 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+}
+
+body main .inputs-section .two-inputs .inputs .input-container input {
+  height: 50px;
+  border-radius: 12px;
+  border-color: #ccc2c2;
+  padding-left: 45px;
+  margin-top: 8px;
+}
+
+body main .inputs-section .checkbox {
+  font-size: 0.8rem;
+  margin-top: 15px;
+}
+
+body main .inputs-section .checkbox input {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin-left: 10px;
+}
+
+body main .inputs-section .checkbox label {
+  margin-left: 15px;
+}
+
+body main .inputs-section .shipping-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .inputs-section #submit-but {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 30px;
+  width: 220px;
+  height: 65px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.2rem;
+  background-color: #F2994A;
+}
+
+body footer {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-top: 100px;
+  color: #a7a7a7;
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 80px;
+  }
+  body main .products {
+    width: 50%;
+  }
+  body main .inputs-section {
+    width: 50%;
+    padding-right: 40px;
+  }
+  body main .inputs-section .contact-information h2 {
+    margin-top: 0px;
+  }
+  .validation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .validation p {
+    background-color: #d1d1d1;
+    padding: 30px;
+    border: green 5px solid;
+    color: green;
+    border-radius: 15px;
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
