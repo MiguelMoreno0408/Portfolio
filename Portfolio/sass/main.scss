@@ -1,0 +1,45 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'layout/header';
+@import 'layout/name';
+
+@import 'pages/home';
+@import 'pages/formacion';
+@import 'pages/proyectos';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.76),
+      rgba(0, 0, 0, 0.637)
+    ),
+    url('/img/joan-gamell-ZS67i1HLllo-unsplash\ \(3\).jpg');
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.particles-container {
+  position: relative;
+  z-index: 99;
+}
