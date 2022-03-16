@@ -1,42 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Poppins:wght@400;600;700;800&display=swap");
 .typing, .typing-first, .typing-second, .typing-third {
   -webkit-animation: typing 3s steps(44), blink 0.7s step-end infinite alternate;
-          animation: typing 3s steps(44), blink 0.7s step-end infinite alternate;
+  animation: typing 3s steps(44), blink 0.7s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   font-size: 5em;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .typing-first {
   width: 4ch;
   -webkit-animation: typing 0.7s steps(6), blink 0.9s infinite alternate;
-          animation: typing 0.7s steps(6), blink 0.9s infinite alternate;
+  animation: typing 0.7s steps(6), blink 0.9s infinite alternate;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .typing-second {
   width: 11.2ch;
   -webkit-animation: typing 1s steps(9), blink 0.9s infinite alternate;
-          animation: typing 1s steps(9), blink 0.9s infinite alternate;
+  animation: typing 1s steps(9), blink 0.9s infinite alternate;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 
 .typing-third {
   width: 25ch;
   -webkit-animation: typing 2s steps(25), blink 1s infinite alternate;
-          animation: typing 2s steps(25), blink 1s infinite alternate;
+  animation: typing 2s steps(25), blink 1s infinite alternate;
   font-size: 8em;
   font-weight: 900;
   -webkit-animation-delay: 1.9s;
-          animation-delay: 1.9s;
+  animation-delay: 1.9s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 @-webkit-keyframes typing {
@@ -68,24 +68,6 @@
   width: 100%;
   position: fixed;
   z-index: -1;
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: white;
 }
 
 .header {
@@ -211,6 +193,15 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
 }
 
 body {
