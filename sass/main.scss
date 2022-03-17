@@ -36,7 +36,7 @@ body {
 body {
   font-family: 'Nunito', sans-serif;
   color: rgb(255, 255, 255);
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
   background-image: linear-gradient(
       to right,
@@ -46,6 +46,7 @@ body {
     url('/img/fondo_codigo.jpg');
   background-position: top;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
 }

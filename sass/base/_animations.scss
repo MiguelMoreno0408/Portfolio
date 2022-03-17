@@ -1,42 +1,34 @@
-
-.typing, .typing-first, .typing-second, .typing-third {
-  -webkit-animation: typing 3s steps(44), blink 0.7s step-end infinite alternate;
-          animation: typing 3s steps(44), blink 0.7s step-end infinite alternate;
+.typing,
+.typing-first,
+.typing-second,
+.typing-third {
+  animation: typing 3s steps(44), blink 0.7s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   font-size: 5em;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .typing-first {
   width: 4ch;
-  -webkit-animation: typing 0.7s steps(6), blink 0.9s infinite alternate;
-          animation: typing 0.7s steps(6), blink 0.9s infinite alternate;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: typing 0.7s steps(6), blink 0.9s infinite alternate;
+  animation-fill-mode: both;
 }
 
 .typing-second {
   width: 11.2ch;
-  -webkit-animation: typing 1s steps(9), blink 0.9s infinite alternate;
-          animation: typing 1s steps(9), blink 0.9s infinite alternate;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  animation: typing 1s steps(9), blink 0.9s infinite alternate;
+  animation-fill-mode: both;
+  animation-delay: 0.8s;
 }
 
 .typing-third {
   width: 25ch;
-  -webkit-animation: typing 2s steps(25), blink 1s infinite alternate;
-          animation: typing 2s steps(25), blink 1s infinite alternate;
-  font-size: 8em;
+  animation: typing 2s steps(25), blink 1s infinite alternate;
+  font-size: 5vw;
   font-weight: 900;
-  -webkit-animation-delay: 1.9s;
-          animation-delay: 1.9s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-delay: 1.9s;
+  animation-fill-mode: both;
 }
 
 @-webkit-keyframes typing {

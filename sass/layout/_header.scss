@@ -1,17 +1,16 @@
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 15vh;
-  padding: 60px;
+  // padding: 60px;
   font-size: 30px;
   width: 100%;
 }
 
 .header-logo {
   font-weight: 900;
+  padding-left: 60px;
 }
 
 .header-logo a {
@@ -60,26 +59,26 @@
 }
 
 .header-contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  width: auto;
+  height: 100%;
   position: relative;
   list-style: none;
   flex-direction: row;
   font-size: 35px;
+  padding-right: 50px;
 }
 
 .header-contact--logo {
   width: 3vw;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  padding: 2vw;
   align-items: center;
 }
 
 .header-contact--logo a {
-  color: white;
+  color: rgb(255, 255, 255);
   position: absolute;
   opacity: 0.75;
 }
