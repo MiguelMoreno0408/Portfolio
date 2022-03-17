@@ -1,5 +1,4 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Poppins:wght@400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Poppins:wght@400;600;700;800&display=swap');
 
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
@@ -44,7 +43,7 @@ body {
       rgba(0, 0, 0, 0.76),
       rgba(0, 0, 0, 0.637)
     ),
-    url('/img/joan-gamell-ZS67i1HLllo-unsplash\ \(3\).jpg');
+    url('/img/fondo_codigo.jpg');
   background-position: top;
   background-size: cover;
   display: flex;

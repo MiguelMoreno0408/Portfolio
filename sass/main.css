@@ -209,8 +209,8 @@ body {
   color: white;
   height: 100vh;
   width: 100vw;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.76)), to(rgba(0, 0, 0, 0.637))), url("/img/joan-gamell-ZS67i1HLllo-unsplash (3).jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.637)), url("/img/joan-gamell-ZS67i1HLllo-unsplash (3).jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.76)), to(rgba(0, 0, 0, 0.637))), url("/img/fondo_codigo.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.637)), url("/img/fondo_codigo.jpg");
   background-position: top;
   background-size: cover;
   display: -webkit-box;
